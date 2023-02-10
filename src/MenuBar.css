@@ -1,0 +1,10 @@
+/*
+ * MenuBar component CSS code
+ */
+.BoxContainer {
+    position: absolute;
+    top: 10%;
+    height: 70%;
+    width: 100%;
+    alignment: center;
+}

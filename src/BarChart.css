@@ -1,0 +1,68 @@
+/*
+ * BarChart component CSS code
+ */
+
+/* The svg element */
+svg {
+    border: none;
+    font-family: Arial;
+    text-anchor: middle;
+    width: 100%;
+    height: 100%;
+}
+
+/* The title text */
+#title {
+    font-size: 3pt;
+    fill: black;
+}
+
+/* Labels and values text */
+#labels, #values {
+    font-size: 1pt;
+    fill: grey;
+}
+
+/* The name of the first attribute */
+#labels #name {
+    font-size: 2pt;
+}
+
+/* The name of the second attribute */
+#values #name {
+    font-size: 2pt;
+    writing-mode: tb;
+    text-orientation: upright;
+}
+
+/* Lines */
+#lines {
+    stroke: silver;
+    stroke-width: 0.1pt;
+}
+
+/* Bars */
+#bars {
+    fill: dodgerblue;
+}
+
+/* Tooltip text */
+#tooltip {
+    font-size: 2pt;
+    fill: black;
+    text-anchor: start;
+    visibility: hidden;
+}
+
+/* Tooltip background */
+#tooltip rect {
+    fill: lightgrey;
+    rx: 2px;
+    ry: 2px;
+}
+
+/* Tooltip text lines */
+#tooltip tspan {
+    padding: 10px;
+    fill: black;
+}
